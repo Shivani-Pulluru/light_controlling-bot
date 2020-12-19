@@ -33,7 +33,7 @@ def off(bot,update):
     value = Data(value=0)
     value_send = aio.create_data('shirisha-a',value)
 
-u = Updater('1373757776:AAEljYmvyeZ7Vstv6p4TquxEudB1qFV63os')  #change the token
+u = Updater('1409120167:AAGu_pP6ntFkck-Y7FtxBkbLBrIqQmQiu5M')  
 dp = u.dispatcher
 dp.add_handler(CommandHandler('on',on))
 dp.add_handler(CommandHandler('off',off))
